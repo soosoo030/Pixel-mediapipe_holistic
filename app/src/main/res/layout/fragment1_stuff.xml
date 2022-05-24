@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/stuffCap"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#F5FAFA"
+        android:text="사진찍기"
+        android:textColor="#6D929B"
+        android:textSize="15dp"
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_pre"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="#F5FAFA"
+            android:text="수락영상보기"
+            android:textColor="#6D929B"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/stuff_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:backgroundTint="#F5FAFA"
+            android:text="단어저장하기"
+            android:textColor="#6D929B"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

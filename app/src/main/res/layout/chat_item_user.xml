@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--필요가 없어져서 사용하지 않음. 하지만 필요할지도 몰라서 일단 살려뒀음-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_round_user"
+    android:text="test_user"
+    android:textSize="14dp"
+    android:textColor="@color/black"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"/>
+</LinearLayout>
