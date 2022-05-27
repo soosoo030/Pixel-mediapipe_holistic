@@ -155,8 +155,8 @@ public class holistic_activity extends AppCompatActivity {
                 });
         CameraHelper.CameraFacing cameraFacing =
                 applicationInfo.metaData.getBoolean("cameraFacingFront", false)
-                        ? CameraHelper.CameraFacing.FRONT
-                        : CameraHelper.CameraFacing.BACK;
+                        ? CameraHelper.CameraFacing.BACK
+                        : CameraHelper.CameraFacing.FRONT;
         cameraHelper.startCamera(
                 this, cameraFacing, /*surfaceTexture=*/ null, cameraTargetResolution());
     }
