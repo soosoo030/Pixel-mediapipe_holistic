@@ -7,14 +7,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
         tools:context=".holistic_activity">
-
+    <Button
+        android:id="@+id/BackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="30dp"
+        />
         <FrameLayout
             android:id="@+id/preview_display_layout"
             android:layout_gravity="center"
             android:layout_width="300dp"
-            android:layout_height="350dp"
+            android:layout_height="500dp"
             >
-
             <TextView
                 android:id="@+id/no_camera_access_view"
                 android:layout_width="fill_parent"

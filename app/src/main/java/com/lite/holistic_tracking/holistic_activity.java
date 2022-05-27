@@ -5,6 +5,8 @@ import android.content.pm.PackageManager;
 import android.graphics.SurfaceTexture;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.util.Log;
 import android.util.Size;
@@ -12,6 +14,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
 import com.google.mediapipe.components.CameraHelper;
 import com.google.mediapipe.components.CameraXPreviewHelper;
 import com.google.mediapipe.components.ExternalTextureConverter;
@@ -32,6 +36,7 @@ public class holistic_activity extends AppCompatActivity {
     // NOTE: use "flipFramesVertically" in manifest metadata to override this behavior.
     private static final boolean FLIP_FRAMES_VERTICALLY = true;
 
+    private Button backBtn;
     static {
         // Load all native libraries needed by the app.
         System.loadLibrary("mediapipe_jni");
@@ -68,6 +73,13 @@ public class holistic_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_holistic_activity);
 
+        backBtn = findViewById(R.id.BackBtn);
+        backBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                finish();
+            }
+        });
         try {
             applicationInfo =
                     getPackageManager().getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA);
