@@ -44,6 +44,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.6.4'
     implementation 'org.conscrypt:conscrypt-android:2.5.0'
 
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+
     // MediaPipe deps
     implementation 'com.google.flogger:flogger:0.3.1'
     implementation 'com.google.flogger:flogger-system-backend:0.3.1'
@@ -56,5 +58,9 @@ dependencies {
     implementation "androidx.camera:camera-core:$camerax_version"
     implementation "androidx.camera:camera-camera2:$camerax_version"
     implementation "androidx.camera:camera-lifecycle:$camerax_version"
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.squareup.okhttp:okhttp:2.4.0'
 }
 tasks.register("prepareKotlinBuildScriptModel"){}

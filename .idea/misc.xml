@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/activity_camera.xml" value="0.25677083333333334" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/activity_holistic_activity.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/activity_main.xml" value="0.1875" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/camera_connection_fragment.xml" value="0.25677083333333334" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/endtalk_page.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/f2_endtalk.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/fragment1.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/fragment1_hand.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/layout/fragment1_stuff.xml" value="0.125" />
-        <entry key="..\:/Users/DS/Desktop/누구든 죽여보겠다/mediapipe-holistic-tracking-aar-example/app/src/main/res/menu/bottom.xml" value="0.1875" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

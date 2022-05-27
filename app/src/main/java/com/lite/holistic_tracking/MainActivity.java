@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
     //권한
     private final int MY_PERMISSIONS_REQUEST_CAMERA=1001;
-
+    // Run the pipeline and the model inference on GPU or CPU.
+    private static final boolean RUN_ON_GPU = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new FragmentPage1();
             } else if (id == R.id.navigation_2){
                 tag2=tag;
-                fragment = new com.lite.holistic_tracking.FragmentPage2();
+                fragment = new FragmentPage2();
             }else {
                 tag3=tag;
                 fragment = new FragmentPage3();
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             if(fragment==fragmentManager.findFragmentByTag(tag2)) { //메인 페이지 항시 리플래쉬
                 fragmentTransaction.remove(fragment);
-                fragment = new com.lite.holistic_tracking.FragmentPage2();
+                fragment = new FragmentPage2();
                 fragmentTransaction.add(R.id.content_layout, fragment, tag2);
             }else {
                 fragmentTransaction.show(fragment);
